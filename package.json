@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "release": "npm run build && npm publish"
+    "release": "npm run build && npm publish --access public"
   },
   "author": "Zyrouge",
   "license": "ISC",
