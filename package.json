@@ -1,0 +1,18 @@
+{
+  "name": "@zyrouge/git-compare",
+  "version": "1.0.0",
+  "description": "Returns the difference between two commit/tags",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  },
+  "author": "Zyrouge",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "got": "^11.8.2"
+  }
+}
