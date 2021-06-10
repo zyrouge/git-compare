@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Returns the difference between two commit/tags",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./dist && tsc",
+    "release": "npm run build && npm publish"
   },
   "author": "Zyrouge",
   "license": "ISC",
